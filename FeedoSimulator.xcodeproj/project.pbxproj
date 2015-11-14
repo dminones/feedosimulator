@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A329660D1BF785CA005B5490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329660C1BF785CA005B5490 /* AppDelegate.swift */; };
+		A329660F1BF785CA005B5490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329660E1BF785CA005B5490 /* ViewController.swift */; };
+		A32966121BF785CA005B5490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32966101BF785CA005B5490 /* Main.storyboard */; };
+		A32966141BF785CA005B5490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32966131BF785CA005B5490 /* Assets.xcassets */; };
+		A32966171BF785CA005B5490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32966151BF785CA005B5490 /* LaunchScreen.storyboard */; };
+		A32966221BF785CA005B5490 /* FeedoSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32966211BF785CA005B5490 /* FeedoSimulatorTests.swift */; };
+		A329662D1BF785CA005B5490 /* FeedoSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329662C1BF785CA005B5490 /* FeedoSimulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A329661E1BF785CA005B5490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32966011BF785CA005B5490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32966081BF785CA005B5490;
+			remoteInfo = FeedoSimulator;
+		};
+		A32966291BF785CA005B5490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32966011BF785CA005B5490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32966081BF785CA005B5490;
+			remoteInfo = FeedoSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32966091BF785CA005B5490 /* FeedoSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedoSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A329660C1BF785CA005B5490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A329660E1BF785CA005B5490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A32966111BF785CA005B5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A32966131BF785CA005B5490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32966161BF785CA005B5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A32966181BF785CA005B5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A329661D1BF785CA005B5490 /* FeedoSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedoSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32966211BF785CA005B5490 /* FeedoSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedoSimulatorTests.swift; sourceTree = "<group>"; };
+		A32966231BF785CA005B5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32966281BF785CA005B5490 /* FeedoSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedoSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A329662C1BF785CA005B5490 /* FeedoSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedoSimulatorUITests.swift; sourceTree = "<group>"; };
+		A329662E1BF785CA005B5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32966061BF785CA005B5490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A329661A1BF785CA005B5490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32966251BF785CA005B5490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32966001BF785CA005B5490 = {
+			isa = PBXGroup;
+			children = (
+				A329660B1BF785CA005B5490 /* FeedoSimulator */,
+				A32966201BF785CA005B5490 /* FeedoSimulatorTests */,
+				A329662B1BF785CA005B5490 /* FeedoSimulatorUITests */,
+				A329660A1BF785CA005B5490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A329660A1BF785CA005B5490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32966091BF785CA005B5490 /* FeedoSimulator.app */,
+				A329661D1BF785CA005B5490 /* FeedoSimulatorTests.xctest */,
+				A32966281BF785CA005B5490 /* FeedoSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A329660B1BF785CA005B5490 /* FeedoSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				A329660C1BF785CA005B5490 /* AppDelegate.swift */,
+				A329660E1BF785CA005B5490 /* ViewController.swift */,
+				A32966101BF785CA005B5490 /* Main.storyboard */,
+				A32966131BF785CA005B5490 /* Assets.xcassets */,
+				A32966151BF785CA005B5490 /* LaunchScreen.storyboard */,
+				A32966181BF785CA005B5490 /* Info.plist */,
+			);
+			path = FeedoSimulator;
+			sourceTree = "<group>";
+		};
+		A32966201BF785CA005B5490 /* FeedoSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32966211BF785CA005B5490 /* FeedoSimulatorTests.swift */,
+				A32966231BF785CA005B5490 /* Info.plist */,
+			);
+			path = FeedoSimulatorTests;
+			sourceTree = "<group>";
+		};
+		A329662B1BF785CA005B5490 /* FeedoSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A329662C1BF785CA005B5490 /* FeedoSimulatorUITests.swift */,
+				A329662E1BF785CA005B5490 /* Info.plist */,
+			);
+			path = FeedoSimulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32966081BF785CA005B5490 /* FeedoSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32966311BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulator" */;
+			buildPhases = (
+				A32966051BF785CA005B5490 /* Sources */,
+				A32966061BF785CA005B5490 /* Frameworks */,
+				A32966071BF785CA005B5490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedoSimulator;
+			productName = FeedoSimulator;
+			productReference = A32966091BF785CA005B5490 /* FeedoSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A329661C1BF785CA005B5490 /* FeedoSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32966341BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulatorTests" */;
+			buildPhases = (
+				A32966191BF785CA005B5490 /* Sources */,
+				A329661A1BF785CA005B5490 /* Frameworks */,
+				A329661B1BF785CA005B5490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A329661F1BF785CA005B5490 /* PBXTargetDependency */,
+			);
+			name = FeedoSimulatorTests;
+			productName = FeedoSimulatorTests;
+			productReference = A329661D1BF785CA005B5490 /* FeedoSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32966271BF785CA005B5490 /* FeedoSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32966371BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulatorUITests" */;
+			buildPhases = (
+				A32966241BF785CA005B5490 /* Sources */,
+				A32966251BF785CA005B5490 /* Frameworks */,
+				A32966261BF785CA005B5490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A329662A1BF785CA005B5490 /* PBXTargetDependency */,
+			);
+			name = FeedoSimulatorUITests;
+			productName = FeedoSimulatorUITests;
+			productReference = A32966281BF785CA005B5490 /* FeedoSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32966011BF785CA005B5490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dario Miñones";
+				TargetAttributes = {
+					A32966081BF785CA005B5490 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A329661C1BF785CA005B5490 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A32966081BF785CA005B5490;
+					};
+					A32966271BF785CA005B5490 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A32966081BF785CA005B5490;
+					};
+				};
+			};
+			buildConfigurationList = A32966041BF785CA005B5490 /* Build configuration list for PBXProject "FeedoSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32966001BF785CA005B5490;
+			productRefGroup = A329660A1BF785CA005B5490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32966081BF785CA005B5490 /* FeedoSimulator */,
+				A329661C1BF785CA005B5490 /* FeedoSimulatorTests */,
+				A32966271BF785CA005B5490 /* FeedoSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32966071BF785CA005B5490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32966171BF785CA005B5490 /* LaunchScreen.storyboard in Resources */,
+				A32966141BF785CA005B5490 /* Assets.xcassets in Resources */,
+				A32966121BF785CA005B5490 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A329661B1BF785CA005B5490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32966261BF785CA005B5490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32966051BF785CA005B5490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A329660F1BF785CA005B5490 /* ViewController.swift in Sources */,
+				A329660D1BF785CA005B5490 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32966191BF785CA005B5490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32966221BF785CA005B5490 /* FeedoSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32966241BF785CA005B5490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A329662D1BF785CA005B5490 /* FeedoSimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A329661F1BF785CA005B5490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32966081BF785CA005B5490 /* FeedoSimulator */;
+			targetProxy = A329661E1BF785CA005B5490 /* PBXContainerItemProxy */;
+		};
+		A329662A1BF785CA005B5490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32966081BF785CA005B5490 /* FeedoSimulator */;
+			targetProxy = A32966291BF785CA005B5490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A32966101BF785CA005B5490 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32966111BF785CA005B5490 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A32966151BF785CA005B5490 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32966161BF785CA005B5490 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A329662F1BF785CA005B5490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32966301BF785CA005B5490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32966321BF785CA005B5490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeedoSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A32966331BF785CA005B5490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeedoSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A32966351BF785CA005B5490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FeedoSimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedoSimulator.app/FeedoSimulator";
+			};
+			name = Debug;
+		};
+		A32966361BF785CA005B5490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FeedoSimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedoSimulator.app/FeedoSimulator";
+			};
+			name = Release;
+		};
+		A32966381BF785CA005B5490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FeedoSimulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeedoSimulator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A32966391BF785CA005B5490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FeedoSimulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeedoSimulator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32966041BF785CA005B5490 /* Build configuration list for PBXProject "FeedoSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A329662F1BF785CA005B5490 /* Debug */,
+				A32966301BF785CA005B5490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32966311BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32966321BF785CA005B5490 /* Debug */,
+				A32966331BF785CA005B5490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A32966341BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32966351BF785CA005B5490 /* Debug */,
+				A32966361BF785CA005B5490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A32966371BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32966381BF785CA005B5490 /* Debug */,
+				A32966391BF785CA005B5490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32966011BF785CA005B5490 /* Project object */;
+}
