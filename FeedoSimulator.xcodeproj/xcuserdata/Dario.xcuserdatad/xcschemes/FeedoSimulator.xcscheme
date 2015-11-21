@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A32966081BF785CA005B5490"
+               BuildableName = "FeedoSimulator.app"
+               BlueprintName = "FeedoSimulator"
+               ReferencedContainer = "container:FeedoSimulator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A329661C1BF785CA005B5490"
+               BuildableName = "FeedoSimulatorTests.xctest"
+               BlueprintName = "FeedoSimulatorTests"
+               ReferencedContainer = "container:FeedoSimulator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A32966271BF785CA005B5490"
+               BuildableName = "FeedoSimulatorUITests.xctest"
+               BlueprintName = "FeedoSimulatorUITests"
+               ReferencedContainer = "container:FeedoSimulator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A32966081BF785CA005B5490"
+            BuildableName = "FeedoSimulator.app"
+            BlueprintName = "FeedoSimulator"
+            ReferencedContainer = "container:FeedoSimulator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A32966081BF785CA005B5490"
+            BuildableName = "FeedoSimulator.app"
+            BlueprintName = "FeedoSimulator"
+            ReferencedContainer = "container:FeedoSimulator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A32966081BF785CA005B5490"
+            BuildableName = "FeedoSimulator.app"
+            BlueprintName = "FeedoSimulator"
+            ReferencedContainer = "container:FeedoSimulator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

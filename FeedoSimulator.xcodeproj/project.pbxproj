@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A309360A1C009A79008E4431 /* FeedSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30936091C009A79008E4431 /* FeedSetting.swift */; };
 		A329660D1BF785CA005B5490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329660C1BF785CA005B5490 /* AppDelegate.swift */; };
-		A329660F1BF785CA005B5490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329660E1BF785CA005B5490 /* ViewController.swift */; };
+		A329660F1BF785CA005B5490 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329660E1BF785CA005B5490 /* QRViewController.swift */; };
 		A32966121BF785CA005B5490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32966101BF785CA005B5490 /* Main.storyboard */; };
 		A32966141BF785CA005B5490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32966131BF785CA005B5490 /* Assets.xcassets */; };
 		A32966171BF785CA005B5490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32966151BF785CA005B5490 /* LaunchScreen.storyboard */; };
 		A32966221BF785CA005B5490 /* FeedoSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32966211BF785CA005B5490 /* FeedoSimulatorTests.swift */; };
 		A329662D1BF785CA005B5490 /* FeedoSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329662C1BF785CA005B5490 /* FeedoSimulatorUITests.swift */; };
+		A329663B1BF786CD005B5490 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A329663A1BF786CD005B5490 /* ParseUI.framework */; };
+		A32966431BF78D7C005B5490 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32966411BF78D7C005B5490 /* Device.swift */; };
+		A32966461BF79569005B5490 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32966451BF79569005B5490 /* DeviceViewController.swift */; };
+		A329664E1BF798C8005B5490 /* ManagerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329664D1BF798C8005B5490 /* ManagerTabBarController.swift */; };
+		A32966501BF79D5C005B5490 /* qrcode.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A329664F1BF79D5C005B5490 /* qrcode.jpeg */; };
+		B54C11B6896C40DB750F308B /* Pods_FeedoSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726D212D1A1A6AA021FA7F99 /* Pods_FeedoSimulator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28D52894B1906ECD352B7A87 /* Pods-FeedoSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedoSimulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeedoSimulator/Pods-FeedoSimulator.release.xcconfig"; sourceTree = "<group>"; };
+		726D212D1A1A6AA021FA7F99 /* Pods_FeedoSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedoSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30936091C009A79008E4431 /* FeedSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedSetting.swift; sourceTree = "<group>"; };
 		A32966091BF785CA005B5490 /* FeedoSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedoSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A329660C1BF785CA005B5490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A329660E1BF785CA005B5490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A329660E1BF785CA005B5490 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		A32966111BF785CA005B5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A32966131BF785CA005B5490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32966161BF785CA005B5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,12 @@
 		A32966281BF785CA005B5490 /* FeedoSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedoSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A329662C1BF785CA005B5490 /* FeedoSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedoSimulatorUITests.swift; sourceTree = "<group>"; };
 		A329662E1BF785CA005B5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A329663A1BF786CD005B5490 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		A32966411BF78D7C005B5490 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		A32966451BF79569005B5490 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		A329664D1BF798C8005B5490 /* ManagerTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerTabBarController.swift; sourceTree = "<group>"; };
+		A329664F1BF79D5C005B5490 /* qrcode.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qrcode.jpeg; sourceTree = "<group>"; };
+		B5996A2805AA340520242E52 /* Pods-FeedoSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedoSimulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedoSimulator/Pods-FeedoSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A329663B1BF786CD005B5490 /* ParseUI.framework in Frameworks */,
+				B54C11B6896C40DB750F308B /* Pods_FeedoSimulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		374A3C0725A6C50B475134B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5996A2805AA340520242E52 /* Pods-FeedoSimulator.debug.xcconfig */,
+				28D52894B1906ECD352B7A87 /* Pods-FeedoSimulator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		577436EB9D224C9A57D26B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A329663A1BF786CD005B5490 /* ParseUI.framework */,
+				726D212D1A1A6AA021FA7F99 /* Pods_FeedoSimulator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A32966001BF785CA005B5490 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				A32966201BF785CA005B5490 /* FeedoSimulatorTests */,
 				A329662B1BF785CA005B5490 /* FeedoSimulatorUITests */,
 				A329660A1BF785CA005B5490 /* Products */,
+				374A3C0725A6C50B475134B6 /* Pods */,
+				577436EB9D224C9A57D26B8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +135,10 @@
 		A329660B1BF785CA005B5490 /* FeedoSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				A32966401BF78D5E005B5490 /* Models */,
+				A329663F1BF78C67005B5490 /* Controllers */,
+				A329663C1BF78908005B5490 /* Images */,
 				A329660C1BF785CA005B5490 /* AppDelegate.swift */,
-				A329660E1BF785CA005B5490 /* ViewController.swift */,
 				A32966101BF785CA005B5490 /* Main.storyboard */,
 				A32966131BF785CA005B5490 /* Assets.xcassets */,
 				A32966151BF785CA005B5490 /* LaunchScreen.storyboard */,
@@ -125,6 +165,33 @@
 			path = FeedoSimulatorUITests;
 			sourceTree = "<group>";
 		};
+		A329663C1BF78908005B5490 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A329664F1BF79D5C005B5490 /* qrcode.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A329663F1BF78C67005B5490 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A329660E1BF785CA005B5490 /* QRViewController.swift */,
+				A32966451BF79569005B5490 /* DeviceViewController.swift */,
+				A329664D1BF798C8005B5490 /* ManagerTabBarController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A32966401BF78D5E005B5490 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A30936091C009A79008E4431 /* FeedSetting.swift */,
+				A32966411BF78D7C005B5490 /* Device.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A32966311BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulator" */;
 			buildPhases = (
+				EA6A033AAAA9FB5CE5EA6293 /* Check Pods Manifest.lock */,
 				A32966051BF785CA005B5490 /* Sources */,
 				A32966061BF785CA005B5490 /* Frameworks */,
 				A32966071BF785CA005B5490 /* Resources */,
+				2D07B2C2C764DE9B3FC7209A /* Copy Pods Resources */,
+				D5D4C16BAFDF5B51DAD3F9CB /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +302,7 @@
 				A32966171BF785CA005B5490 /* LaunchScreen.storyboard in Resources */,
 				A32966141BF785CA005B5490 /* Assets.xcassets in Resources */,
 				A32966121BF785CA005B5490 /* Main.storyboard in Resources */,
+				A32966501BF79D5C005B5490 /* qrcode.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +322,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D07B2C2C764DE9B3FC7209A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeedoSimulator/Pods-FeedoSimulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D4C16BAFDF5B51DAD3F9CB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeedoSimulator/Pods-FeedoSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6A033AAAA9FB5CE5EA6293 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A32966051BF785CA005B5490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A329660F1BF785CA005B5490 /* ViewController.swift in Sources */,
+				A309360A1C009A79008E4431 /* FeedSetting.swift in Sources */,
+				A32966461BF79569005B5490 /* DeviceViewController.swift in Sources */,
+				A32966431BF78D7C005B5490 /* Device.swift in Sources */,
+				A329660F1BF785CA005B5490 /* QRViewController.swift in Sources */,
+				A329664E1BF798C8005B5490 /* ManagerTabBarController.swift in Sources */,
 				A329660D1BF785CA005B5490 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,8 +520,13 @@
 		};
 		A32966321BF785CA005B5490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5996A2805AA340520242E52 /* Pods-FeedoSimulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FeedoSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulator;
@@ -408,8 +536,13 @@
 		};
 		A32966331BF785CA005B5490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D52894B1906ECD352B7A87 /* Pods-FeedoSimulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FeedoSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ws.cactus.iphoneapps.FeedoSimulator;
@@ -484,6 +617,7 @@
 				A32966331BF785CA005B5490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A32966341BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +626,7 @@
 				A32966361BF785CA005B5490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A32966371BF785CA005B5490 /* Build configuration list for PBXNativeTarget "FeedoSimulatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +635,7 @@
 				A32966391BF785CA005B5490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

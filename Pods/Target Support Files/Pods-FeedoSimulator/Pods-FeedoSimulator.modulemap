@@ -1,0 +1,6 @@
+framework module Pods_FeedoSimulator {
+  umbrella header "Pods-FeedoSimulator-umbrella.h"
+
+  export *
+  module * { export * }
+}
